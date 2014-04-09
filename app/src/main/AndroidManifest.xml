@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.aaenema.pagemaster.app.InsertBookActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_insert_book"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
